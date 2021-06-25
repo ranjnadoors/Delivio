@@ -885,9 +885,19 @@ a:hover{
   background: grey;
   border: #fff;
 }
+.carousel-inner{
+  margin-top: -24px;
+  margin-left: 15px;
+}
 
-
-
+@media only screen  
+and (min-device-width: 320px)
+and (max-device-width : 640px) {
+  .carousel-inner{
+    margin-top: 10px !important;;
+    margin-left: 15px;
+  }
+}
 
 
 @media screen and (max-width: 768px){
