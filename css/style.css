@@ -21,8 +21,11 @@ font-family: Roboto, sans-serif;
     pointer-events: none;
 }
 
-.navbar .dropdown-menu a.hover:hover {
+
+
+.navbar .dropdown-menu a:hover {
     color: #8CBC43 !important;
+    background-color: black !important;
 }
 
 .h1{
