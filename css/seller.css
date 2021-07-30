@@ -1,0 +1,241 @@
+@font-face{
+    src: url(../assets/font/Merriweather/Merriweather-Bold.ttf);
+    font-family: Merriweather;
+  }
+  @font-face{
+    src: url(../assets/font/Open_Sans/OpenSans-SemiBold.ttf);
+    font-family:Open Sans;
+  }
+  .nav-bg{
+      background: #000000 !important;
+  }
+  .navbar-nav .nav-link{
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 31px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.5px;
+    color: #FFFFFF !important;
+  }
+  #home .home-bg{
+     width: 1600px;
+     height: 780px;
+ }
+ #home .home-position{
+     position: absolute;
+ }
+ #home .home-position-2{
+    position: absolute;
+    left: 50%;
+    background: #FFFFFF;
+    border-radius: 15px;
+    width: 585px;
+    z-index: 99;
+}
+  #home h2{
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 101px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.5px;
+    color: #fff;
+  }
+  #home h3{
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 57px;
+    line-height: 72px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.5px;
+    color: #fff;
+  }
+  #home h4{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  #home .form-group label{
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 31px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.5px;
+    color: #8BBD43;
+    
+  }
+  #home .form-group .form-control{
+    border: 1px solid #8BBD43;
+    box-sizing: border-box;
+    border-radius: 4px;
+      
+  }
+  #home .form-icons{
+    position: absolute;
+    top: 15%;
+    left: 15%;
+  }
+  
+  #home .user-1{
+      top: 32%;
+  }
+  #home .user{
+    top:49% ;
+}
+#home .phone{
+    top:66% ;
+}
+#home .email{
+    top:83% ;
+}
+.slanted {
+    margin-top: -249px;
+    background-color: #000;
+    height: 700px;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 0%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 66%, 0 100%);
+    transform: rotate(180deg);
+}
+#choose-platform h3{
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 80px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+}
+#data{
+    background: #e5e5e5;
+}
+#data h3{
+    font-family: Merriweather;
+font-style: normal;
+font-weight: bold;
+font-size: 64px;
+line-height: 80px;
+display: flex;
+align-items: center;
+letter-spacing: 0.5px;
+
+color: #1B1B1B;
+
+}
+#data label{
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 34px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.5px;
+    color: #000000;
+}
+#data p{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 160%;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+#data .form-control{
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 4px;
+    height: 50px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+   
+    display: flex;
+    align-items: center;
+    color: #4F4B4B;
+}
+#data select{
+    color: #8BBD43;
+}
+#data select option { color: #8BBD43; }
+#data select option:first-child{
+  color: #8BBD43;
+}
+
+ input[type="radio"] {
+    /* remove standard background appearance */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    /* create custom radiobutton appearance */
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    padding: 6px;
+    /* background-color only for content */
+    background-clip: content-box;
+    border: 2px solid #bbbbbb;
+    background-color: #e7e6e7;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    border: 1px solid #000 ;
+  }
+  
+  /* appearance for checked radiobutton */
+  input[type="radio"]:checked {
+    background-color: #8BBD43;
+   padding: 4px;
+    border: 1px solid #8BBD43;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 4px white;
+  }
+#footer .btn{
+    background: #8BBD43;
+    border-radius: 107px;
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    margin-top: -42px;
+}
+#footer{
+    background: #000;
+}
+#footer h4{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 37px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+
+}
