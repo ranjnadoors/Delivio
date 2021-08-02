@@ -179,7 +179,7 @@
     color: #FFFFFF;
 }
 #footer .btn{
-    background: #8BBD43;
+    background: #fff;
     border-radius: 107px;
     font-family: Merriweather;
     font-style: normal;
@@ -189,11 +189,11 @@
     display: flex;
     align-items: center;
     letter-spacing: 0.5px;
-    color: #FFFFFF;
+    color: #8BBD43;
     margin-top: -42px;
 }
 #footer{
-    background: #000;
+    background: #8BBD43;
 }
 #footer h4{
     font-family: Open Sans;
