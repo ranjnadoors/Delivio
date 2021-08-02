@@ -6,6 +6,9 @@
     src: url(../assets/font/Open_Sans/OpenSans-SemiBold.ttf);
     font-family:Open Sans;
   }
+  body{
+    cursor: pointer;
+  }
   .nav-bg{
       background: #000000 !important;
   }
@@ -239,3 +242,127 @@ color: #1B1B1B;
     color: #FFFFFF;
 
 }
+.data-border{
+  border-left: 1px solid #7C7C7C;
+}
+/***************************media queries******************************/
+/* Smartphones (portrait) ----------- */
+@media (min-width: 357px) and (max-width: 767px) {
+  #home h2{
+    font-size: 30px;
+    line-height: 50px;
+  }
+  #home h3{
+    font-size: 25px;
+    line-height: 40px;
+  }
+  #home h4{
+    font-size: 20px;
+    line-height: 40px;
+  }
+  #home .home-position-2{
+    top: 27%;
+    left: 8%;
+    width: 320px;
+  }
+  #home .form-group label{
+    font-size: 12px;
+  }
+  #home .form-icons {
+    position: absolute;
+    top: 12%;
+    left: 17%;
+}
+#home .phone {
+  top: 68%;
+}
+#home .email {
+  top: 86%;
+}
+#home .user-1{
+top: 30%;
+}
+#home .user{
+top:49% ;
+}
+#choose-platform h3{
+  font-size: 25px;
+  line-height: 1;
+}
+.slanted{
+  margin-top: -490px;
+  height: 1141px;
+}
+.data-border{
+  border: 0px;
+}
+#data h3{
+  font-size: 30px;
+}
+#footer .btn{
+  font-size: 18px;
+}
+#footer h4{
+  font-size: 12px;
+}
+  }
+  
+  /* iPads (portrait and landscape) ----------- */
+  @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    #home h2{
+      font-size: 40px;
+    }
+    #home h3{
+      font-size: 30px;
+    }
+    #home h4{
+      font-size: 25px;
+    }
+    #home .home-position-2{
+      top: 27%;
+      left: 12%;
+    }
+    #home .form-group label{
+      font-size: 16px;
+    }
+    #home .form-icons{
+      top: 11%;
+    }
+    #home .phone {
+      top: 68%;
+  }
+    #home .email {
+      top: 86%;
+  }
+  #home .user-1{
+    top: 30%;
+}
+#home .user{
+  top:49% ;
+}
+
+#choose-platform h3{
+  font-size: 30px;
+}
+.mask-group{
+  position: absolute;
+}
+.slanted{
+  margin-top: -325px;
+  height: 957px;
+}
+.data-border{
+  border: 0px;
+}
+#data h3{
+  font-size: 40px;
+}
+#footer .btn{
+  font-size: 30px;
+}
+#footer h4{
+  font-size: 22px;
+}
+  }
+  
+  
