@@ -80,6 +80,15 @@
   #ship-home ul li{
       color: #8BBD43;
   }
+  #ship-home ul{
+   
+}
+#ship-home ul li::marker{
+    color: #8BBD43;
+    font-size: 1.5em;
+    margin-left: 5px;
+
+}
   #total-approx{
       background: #1B1B1B;
   }
