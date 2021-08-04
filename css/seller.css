@@ -23,16 +23,18 @@
     letter-spacing: 0.5px;
     color: #FFFFFF !important;
   }
-  #home .home-bg{
-     width: 1600px;
-     height: 780px;
- }
+  #home{
+    background-image: url(../images/Group\ 303.png);
+    background-repeat:no-repeat;
+    background-size: cover;
+  }
+
  #home .home-position{
-     position: absolute;
+    
  }
  #home .home-position-2{
-    position: absolute;
-    left: 50%;
+   
+  
     background: #FFFFFF;
     border-radius: 15px;
     width: 585px;
@@ -249,6 +251,10 @@ color: #1B1B1B;
 /***************************media queries******************************/
 /* Smartphones (portrait) ----------- */
 @media (min-width: 357px) and (max-width: 767px) {
+  #home{
+    position: relative;
+    z-index: 99;
+  }
   #home h2{
     font-size: 30px;
     line-height: 50px;
@@ -264,7 +270,8 @@ color: #1B1B1B;
   #home .home-position-2{
     top: 27%;
     left: 8%;
-    width: 320px;
+    width: 349px;
+    
   }
   #home .form-group label{
     font-size: 12px;
@@ -312,11 +319,18 @@ top:49% ;
 #data label{
   font-size: 16px;
 }
+#home .form-icons{
+  left: 10%;
+}
   }
   
   /* iPads (portrait and landscape) ----------- */
   @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
-    #home h2{
+    
+    #home{
+      position: relative;
+      z-index: 99;
+    }#home h2{
       font-size: 40px;
     }
     #home h3{
@@ -369,6 +383,15 @@ top:49% ;
 }
 #footer h4{
   font-size: 22px;
+}
+#home .home-position-2{
+  width: 100%;
+}
+#home .form-icons{
+  left: 11%;
+}
+#home .email{
+  left: 10%;
 }
   }
   
