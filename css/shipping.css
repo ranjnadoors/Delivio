@@ -223,11 +223,24 @@
         font-size: 40px;
     }
     #optional h2{
-        font-size: 22px;
+        font-size: 20px;
         line-height: 30px;
     }
     #ship-home .space-type{
         width: 342px;
+        height: 392px;
+    }
+    #ship-home .space-type h2{
+        font-size: 35px;
+    }
+    #ship-home .space-type h6{
+        font-size: 20px;
+    }
+    #ship-home p{
+        font-size: 16px;
+    }
+    #optional p{
+        font-size: 16px;  
     }
     #total-approx .input-width {
         width: 288px;
@@ -264,5 +277,8 @@
     }
     #footer h4{
         font-size: 25px;
+    }
+    #ship-home .space-type{
+        height: 396px;
     }
 }
