@@ -94,7 +94,7 @@
   #home .form-icons{
     position: absolute;
     top: 15%;
-    left: 15%;
+    left: 10%;
   }
   
   #home .user-1{
@@ -108,7 +108,7 @@
 }
 #home .email{
     top:83% ;
-    left: 14%;
+    left: 10%;
 }
 .slanted {
     margin-top: -249px;

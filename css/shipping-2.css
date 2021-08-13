@@ -1,0 +1,337 @@
+@font-face{
+    src: url(../assets/font/Merriweather/Merriweather-Bold.ttf);
+    font-family: Merriweather;
+  }
+  @font-face{
+    src: url(../assets/font/Open_Sans/OpenSans-SemiBold.ttf);
+    font-family:Open Sans;
+  }
+  body{
+    cursor: pointer;
+  }
+  .nav-bg{
+      background: #000000 !important;
+  }
+  .navbar-nav .nav-link{
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 31px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.5px;
+    color: #FFFFFF !important;
+  }
+  .pant-bg{
+    position: absolute;
+    left: 15px;
+    top: -22px;
+  }
+  .pantagon{
+    width: 200px;
+    height: 200px;
+    background: #8BBD43;
+    position: relative;
+    transform:rotate(90deg);
+  }
+  .pantagon:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 100%;  /*We put it 100% far from left so that it start at the eage of the right border*/
+    border-top: 100px solid white;
+    border-bottom: 100px solid white;
+    border-left: 50px solid white; /*set the width of your triangle and border-left beause we want the triangle to point in the right direction */
+  }
+  #home .home-bg{
+      background-image: url(../images/Group\ 309.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+  #home h3{
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 101px;
+    
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+  }
+  #home li{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19px;
+   line-height: 50px;
+    color: #FFFFFF;
+  }
+  ul {
+    list-style: none; /* remove the default */
+  }
+  #home li::before{
+    display: inline-block;
+          content: '';
+          -webkit-border-radius: 50%;
+          border-radius: 50%;
+          height: 8px;
+          width: 8px;
+          margin-right: 0.5rem;
+          background-color: #8BBD43;
+      }
+#home h2{
+    position: absolute;
+    top: 35px;
+    left: 162px;
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 43px;
+    line-height: 54px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+}    
+#home{
+    background: #2E2E2E;
+} 
+#form-bg{
+    background: #2E2E2E;
+}
+#form-bg label{
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 31px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.5px;
+    color: #8BBD43;
+}     
+#home .form-icons{
+    position: absolute;
+    top: 45%;
+    left: 8%;
+  }
+  
+  #home .user-1{
+      top: 59%;
+  }
+ 
+#home .phone{
+    top:72% ;
+}
+#home .email{
+    top:86% ;
+    left: 7%;
+}
+#home .form-control{
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 4px;
+    background: transparent;
+    color: white;
+}
+#space-type{
+    background: #2E2E2E;
+}
+#space-type h3{
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 31px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.5px;
+    color: #8BBD43;
+}
+#space-type h6{
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 39px;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+}
+#space-type .myImage{
+    height: 29px;
+    width: 29px;
+}
+#total-approx h2{
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 31px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.5px;
+    color: #8BBD43;
+}
+#total-approx .form-control{
+    border: 1px solid #FFFFFF;
+box-sizing: border-box;
+border-radius: 10px;
+    background: transparent;
+    color: white;
+}
+input[type="radio"] {
+    /* remove standard background appearance */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    /* create custom radiobutton appearance */
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    padding: 6px;
+    /* background-color only for content */
+    background-clip: content-box;
+    border: 2px solid #bbbbbb;
+    background-color: #e7e6e7;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    border: 1px solid #000 ;
+  }
+   input[type="radio"]:checked  {
+    background-color: #8BBD43 !important;
+    padding: 4px;
+    border: 1px solid #8BBD43 !important;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 4px white;
+    color: #8BBD43;
+}
+#radio-btn label{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 31px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.5px;
+    color: white;
+}
+#local-delivery h2{
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 31px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.5px;
+    color: #8BBD43;
+}
+.form-check-input:checked ~ label {
+    color: blue;
+  }
+  #footer .btn{
+    background: #FFFFFF;
+    border-radius: 107px;
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 33px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.5px;
+    color: #8BBD43;
+}
+#main-footer h4{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 41px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    }
+   
+   /* ***************************media queries******************************/
+/* Smartphones (portrait) ----------- */
+@media (min-width: 357px) and (max-width: 767px) {
+    #home .phone {
+        top: 70%;
+    }
+    #home .email {
+        top: 87%;
+        left: 10%;
+    }
+    #home .form-icons {
+        left: 10%;
+    }
+    #home h3{
+        font-size: 40px;
+    }
+    #home li {
+        line-height: 30px;
+    }
+    #form-bg label{
+        font-size: 16px;
+    }
+    #space-type h6,#total-approx h2,#local-delivery h2 ,#main-footer h4, #footer .btn{
+        font-size: 16px;
+    }
+   
+    #home .user-1 {
+        top: 53%;
+    }
+    #home h2 {
+        font-size: 35px;
+        left: 50px;
+        top: 20px;
+    
+    }
+    #home .user{
+        top: 35%;
+    }
+    .pant-bg {
+        position: absolute;
+        left: 0px;
+       
+    }
+}
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    #home .phone {
+        top: 73%;
+    }
+    #home .email {
+        top: 89%;
+        left: 6%;
+    }
+    #home .form-icons {
+        left: 6%;
+    }
+    #home h3{
+        font-size: 50px;
+    }
+    #home li {
+        line-height: 40px;
+    }
+    #form-bg label{
+        font-size: 18px;
+    }
+    #space-type h6,#total-approx h2,#local-delivery h2 ,#main-footer h4, #footer .btn{
+        font-size: 18px;
+    }
+    #home .phone {
+        top: 75%;
+    }
+    .pant-bg {
+        left: 78px;
+    }
+    #home h2 {
+        left: 225px;
+        line-height: 74px;
+    }
+}
