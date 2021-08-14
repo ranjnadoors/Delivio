@@ -23,10 +23,13 @@
     letter-spacing: 0.5px;
     color: #FFFFFF !important;
   }
+  .pant-bg-1{
+      margin-top: 23px;
+  }
   .pant-bg{
     position: absolute;
     left: 15px;
-    top: -22px;
+    top: 0px;
   }
   .pantagon{
     width: 200px;
@@ -63,8 +66,8 @@
     font-family: Open Sans;
     font-style: normal;
     font-weight: 600;
-    font-size: 19px;
-   line-height: 50px;
+    font-size: 25px;
+    line-height: 160%;
     color: #FFFFFF;
   }
   ul {
@@ -101,6 +104,10 @@
 #form-bg{
     background: #2E2E2E;
 }
+#home .form-control{
+    width: 505px;
+    height: 42px;
+}
 #form-bg label{
     font-family: Merriweather;
     font-style: normal;
@@ -114,20 +121,24 @@
 }     
 #home .form-icons{
     position: absolute;
-    top: 45%;
-    left: 8%;
+    top: 46%;
+    left: 11%;
+    height: 27px;
   }
   
   #home .user-1{
-      top: 59%;
+      top: 60%;
   }
  
 #home .phone{
-    top:72% ;
+    top:73% ;
 }
 #home .email{
-    top:86% ;
-    left: 7%;
+    top:87% ;
+    left: 11%;
+}
+.Multi-Family{
+    margin-left: -7%;
 }
 #home .form-control{
     border: 1px solid #FFFFFF;
@@ -159,9 +170,22 @@
     letter-spacing: 0.5px;
     color: #FFFFFF;
 }
-#space-type .myImage{
+#space-type .myImage-1{
     height: 29px;
     width: 29px;
+}
+.sq-ft{
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 22px;
+line-height: 30px;
+display: flex;
+justify-content: flex-end;
+color: #8BBD43;
+position: absolute;
+left: 77%;
+top: 49%;
 }
 #total-approx h2{
     font-family: Merriweather;
@@ -180,6 +204,19 @@ box-sizing: border-box;
 border-radius: 10px;
     background: transparent;
     color: white;
+    width: 450px;
+    height: 53px;
+}
+#total-approx input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+
 }
 input[type="radio"] {
     /* remove standard background appearance */
@@ -256,15 +293,20 @@ input[type="radio"] {
     align-items: center;
     color: #FFFFFF;
     }
+    #footer .btn:hover{
+        
+        color: white;
+        background: #8BBD43;
+    }
    
    /* ***************************media queries******************************/
 /* Smartphones (portrait) ----------- */
 @media (min-width: 357px) and (max-width: 767px) {
     #home .phone {
-        top: 70%;
+        top: 71%;
     }
     #home .email {
-        top: 87%;
+        top: 88%;
         left: 10%;
     }
     #home .form-icons {
@@ -284,7 +326,7 @@ input[type="radio"] {
     }
    
     #home .user-1 {
-        top: 53%;
+        top: 54%;
     }
     #home h2 {
         font-size: 35px;
@@ -293,12 +335,22 @@ input[type="radio"] {
     
     }
     #home .user{
-        top: 35%;
+        top: 37%;
     }
     .pant-bg {
         position: absolute;
         left: 0px;
        
+    }
+    .sq-ft{
+        left: 68%;
+        font-size: 16px;
+    }
+    #home .form-control{
+        width: 320px;
+    }
+    #total-approx .form-control{
+        width: 258px;
     }
 }
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
@@ -306,11 +358,11 @@ input[type="radio"] {
         top: 73%;
     }
     #home .email {
-        top: 89%;
+        top: 90%;
         left: 6%;
     }
     #home .form-icons {
-        left: 6%;
+        left: 13%;
     }
     #home h3{
         font-size: 50px;
@@ -327,11 +379,22 @@ input[type="radio"] {
     #home .phone {
         top: 75%;
     }
+    .user{
+        position: absolute;
+        top: 45%;
+    }
     .pant-bg {
         left: 78px;
+        top: -23px;
+    }
+    .pant-bg-1{
+        margin-top: 9px; 
     }
     #home h2 {
         left: 225px;
         line-height: 74px;
+    }
+    .sq-ft{
+        left: 61%;
     }
 }
