@@ -12,43 +12,20 @@
   .nav-bg{
       background: #000000 !important;
   }
-  .navbar-nav .nav-link{
-    font-family: Merriweather;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 25px;
-    line-height: 31px;
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.5px;
-    color: #FFFFFF !important;
+  .nav-link:hover{
+      color: #fff !important;
   }
-  .pant-bg-1{
-      margin-top: 23px;
+  .top-text i{
+      transform: rotate(90deg);
   }
   .pant-bg{
-    position: absolute;
-    left: 15px;
-    top: 0px;
+   position: absolute;
+   
+   max-width: 100%;
   }
-  .pantagon{
-    width: 200px;
-    height: 200px;
-    background: #8BBD43;
-    position: relative;
-    transform:rotate(90deg);
-  }
-  .pantagon:before{
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 100%;  /*We put it 100% far from left so that it start at the eage of the right border*/
-    border-top: 100px solid white;
-    border-bottom: 100px solid white;
-    border-left: 50px solid white; /*set the width of your triangle and border-left beause we want the triangle to point in the right direction */
-  }
+  
   #home .home-bg{
-      background-image: url(../images/Group\ 309.png);
+      background-image: url(../shipper-img/Group\ 309.png);
       background-repeat: no-repeat;
       background-size: cover;
   }
@@ -56,8 +33,7 @@
     font-family: Merriweather;
     font-style: normal;
     font-weight: bold;
-    font-size: 80px;
-    line-height: 101px;
+    font-size: 50px;
     
     letter-spacing: 0.5px;
     color: #FFFFFF;
@@ -66,8 +42,8 @@
     font-family: Open Sans;
     font-style: normal;
     font-weight: 600;
-    font-size: 25px;
-    line-height: 160%;
+    font-size: 20px;
+  
     color: #FFFFFF;
   }
   ul {
@@ -84,20 +60,17 @@
           background-color: #8BBD43;
       }
 #home h2{
-    position: absolute;
-    top: 35px;
-    left: 162px;
-    font-family: Merriweather;
+   font-family: Merriweather;
     font-style: normal;
+    position: relative;
     font-weight: bold;
-    font-size: 43px;
-    line-height: 54px;
-    display: flex;
-    align-items: center;
-    text-align: center;
+    font-size: 35px;
+    
+   
     letter-spacing: 0.5px;
     color: #FFFFFF;
-}    
+} 
+   
 #home{
     background: #2E2E2E;
 } 
@@ -105,38 +78,33 @@
     background: #2E2E2E;
 }
 #home .form-control{
-    width: 505px;
+   
     height: 42px;
 }
 #form-bg label{
     font-family: Merriweather;
     font-style: normal;
     font-weight: bold;
-    font-size: 25px;
-    line-height: 31px;
+    font-size: 18px;
     display: flex;
     align-items: center;
     letter-spacing: 0.5px;
     color: #8BBD43;
-}     
-#home .form-icons{
-    position: absolute;
-    top: 46%;
-    left: 11%;
-    height: 27px;
+}   
+.inputWithIcon {
+    position: relative;
   }
   
-  #home .user-1{
-      top: 60%;
+  .inputWithIcon img {
+    position: absolute;
+    left: 0;
+    top: 1px;
+    padding: 9px 8px;
+    color: #aaa;
+    transition: 0.3s;
   }
- 
-#home .phone{
-    top:73% ;
-}
-#home .email{
-    top:87% ;
-    left: 11%;
-}
+  
+
 .Multi-Family{
     margin-left: -7%;
 }
@@ -165,8 +133,7 @@
     font-family: Merriweather;
     font-style: normal;
     font-weight: bold;
-    font-size: 25px;
-    line-height: 39px;
+    font-size: 20px;
     letter-spacing: 0.5px;
     color: #FFFFFF;
 }
@@ -191,7 +158,7 @@ top: 49%;
     font-family: Merriweather;
     font-style: normal;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 20px;
     line-height: 31px;
     display: flex;
     align-items: center;
@@ -200,11 +167,11 @@ top: 49%;
 }
 #total-approx .form-control{
     border: 1px solid #FFFFFF;
-box-sizing: border-box;
-border-radius: 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
     background: transparent;
     color: white;
-    width: 450px;
+    
     height: 53px;
 }
 #total-approx input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
@@ -253,7 +220,7 @@ input[type="radio"]:checked + label  {
     font-family: Open Sans;
     font-style: normal;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 20px;
     line-height: 31px;
     display: flex;
     align-items: center;
@@ -264,7 +231,7 @@ input[type="radio"]:checked + label  {
     font-family: Merriweather;
     font-style: normal;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 20px;
     line-height: 31px;
     display: flex;
     align-items: center;
@@ -280,7 +247,7 @@ input[type="radio"]:checked + label  {
     font-family: Merriweather;
     font-style: normal;
     font-weight: bold;
-    font-size: 26px;
+    font-size: 20px;
     line-height: 33px;
     display: flex;
     align-items: center;
@@ -302,103 +269,106 @@ input[type="radio"]:checked + label  {
         color: white;
         background: #8BBD43;
     }
-   
+    #total-approx span{
+        font-size: 14px;
+    }
+   .fa-globe{
+    color: white; 
+    font-size: 20px;
+   }
+   .green-bg{
+    background-image: url(../shipper-img/Group\ 252-new.png);
+    background-size: 100% 100%;
+   }
+   /***************************checkboxes*********************/
+   input[type=checkbox] {
+    display:none;
+  }
+  
+  input[type=checkbox] + label {
+    display:inline-block;
+    padding: 0 0 0 0px;
+    background:url("../shipper-img/Group\ 282.png") no-repeat;
+    height: 75px;
+    width: 75px;;
+    background-size: 50%;
+  }
+  
+  input[type=checkbox]:checked + label {
+    background:url("../shipper-img/Group\ 307.png") no-repeat;
+    height: 75px;
+    width: 75px;
+    display:inline-block;
+    background-size: 50%;
+  }
    /* ***************************media queries******************************/
 /* Smartphones (portrait) ----------- */
+@media (min-width: 320px) and (max-width: 480px) {
+    .pant-bg{
+        width: 262px;
+    }
+    #home h2{
+        font-size: 18px;
+    }
+    #main-footer h4{
+        font-size: 18px;
+    }
+  }
 @media (min-width: 357px) and (max-width: 767px) {
-    #home .phone {
-        top: 71%;
-    }
-    #home .email {
-        top: 88%;
-        left: 10%;
-    }
-    #home .form-icons {
-        left: 10%;
-    }
-    #home h3{
-        font-size: 40px;
-    }
+    
     #home li {
         line-height: 30px;
+        font-size: 18px;
     }
     #form-bg label{
         font-size: 16px;
     }
-    #space-type h6,#total-approx h2,#local-delivery h2 ,#main-footer h4, #footer .btn{
+    #space-type h6,#total-approx h2,#local-delivery h2 ,#main-footer h4, #footer .btn {
+        font-size: 18px;
+    }
+    #radio-btn label{
         font-size: 16px;
     }
-   
-    #home .user-1 {
-        top: 54%;
-    }
     #home h2 {
-        font-size: 35px;
-        left: 50px;
-        top: 20px;
-    
-    }
-    #home .user{
-        top: 37%;
-    }
-    .pant-bg {
-        position: absolute;
-        left: 0px;
-       
-    }
-    .sq-ft{
+        font-size: 30px;
+        }
+   .sq-ft{
         left: 68%;
         font-size: 16px;
     }
-    #home .form-control{
-        width: 320px;
+    #home h3 {
+        font-size: 30px;
     }
-    #total-approx .form-control{
-        width: 258px;
+    .pant-bg{
+        width: 312px;
+    }
+    #home h3 {
+        line-height: 50px;
     }
 }
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
-    #home .phone {
-        top: 73%;
-    }
-    #home .email {
-        top: 90%;
-        left: 6%;
-    }
-    #home .form-icons {
-        left: 13%;
+
+@media only screen and (min-device-width : 769px) and (max-device-width : 1025px) {
+    .pant-bg{
+        width: 377px;
     }
     #home h3{
-        font-size: 50px;
+        font-size: 35px;
     }
-    #home li {
-        line-height: 40px;
-    }
+    
     #form-bg label{
         font-size: 18px;
     }
-    #space-type h6,#total-approx h2,#local-delivery h2 ,#main-footer h4, #footer .btn{
-        font-size: 18px;
-    }
-    #home .phone {
-        top: 75%;
-    }
-    .user{
-        position: absolute;
-        top: 45%;
-    }
-    .pant-bg {
-        left: 78px;
-        top: -23px;
-    }
-    .pant-bg-1{
-        margin-top: 9px; 
-    }
-    #home h2 {
-        left: 225px;
-        line-height: 74px;
-    }
-    .sq-ft{
+   .sq-ft{
         left: 61%;
     }
+    #home li{
+        font-size: 20px;
+    }
 }
+@media (min-width: 1025px) and (max-width: 1480px) {
+  
+    .pant-bg{
+        width: 543px;
+    }
+    
+  }

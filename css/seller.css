@@ -12,39 +12,41 @@
   .nav-bg{
       background: #000000 !important;
   }
-  .navbar-nav .nav-link{
-    font-family: Merriweather;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 25px;
-    line-height: 31px;
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.5px;
-    color: #FFFFFF !important;
+  .nav-item a:hover{
+    color: white !important;
   }
   #home{
-    background-image: url(../images/Group\ 303.png);
+    background-image: url(../seller-img/Group\ 303.png);
     background-repeat:no-repeat;
     background-size: cover;
   }
-
- #home .home-position{
-    
- }
- #home .home-position-2{
-   
+.top-text i{
+  transform: rotate(90deg);
+  font-size:20px
+}
+  .inputWithIcon {
+    position: relative;
+  }
   
+  .inputWithIcon img {
+    position: absolute;
+    left: 0;
+    top: 1px;
+    padding: 9px 8px;
+    color: #aaa;
+    transition: 0.3s;
+  }
+  
+ #home .home-position-2{
     background: #FFFFFF;
     border-radius: 15px;
-    width: 585px;
     z-index: 99;
 }
   #home h2{
     font-family: Merriweather;
     font-style: normal;
     font-weight: bold;
-    font-size: 80px;
+    font-size: 50px;
     line-height: 101px;
     display: flex;
     align-items: center;
@@ -55,7 +57,7 @@
     font-family: Merriweather;
     font-style: normal;
     font-weight: bold;
-    font-size: 57px;
+    font-size: 37px;
     line-height: 72px;
     display: flex;
     align-items: center;
@@ -77,7 +79,7 @@
     font-family: Merriweather;
     font-style: normal;
     font-weight: bold;
-    font-size: 22px;
+    font-size: 18px;
     line-height: 31px;
     display: flex;
     align-items: center;
@@ -91,29 +93,11 @@
     border-radius: 4px;
       
   }
-  #home .form-icons{
-    position: absolute;
-    top: 15%;
-    left: 10%;
-  }
   
-  #home .user-1{
-      top: 32%;
-  }
-  #home .user{
-    top:49% ;
-}
-#home .phone{
-    top:66% ;
-}
-#home .email{
-    top:83% ;
-    left: 10%;
-}
 .slanted {
-    margin-top: -249px;
+    margin-top: -343px !important;
     background-color: #000;
-    height: 700px;
+    height: 911px !important;
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 0%, 0 100%);
     clip-path: polygon(0 0, 100% 0, 100% 66%, 0 100%);
     transform: rotate(180deg);
@@ -122,7 +106,7 @@
     font-family: Merriweather;
     font-style: normal;
     font-weight: bold;
-    font-size: 64px;
+    font-size: 50px;
     line-height: 80px;
     display: flex;
     align-items: center;
@@ -136,7 +120,7 @@
     font-family: Merriweather;
 font-style: normal;
 font-weight: bold;
-font-size: 64px;
+font-size: 50px;
 line-height: 80px;
 display: flex;
 align-items: center;
@@ -149,7 +133,7 @@ color: #1B1B1B;
     font-family: Merriweather;
     font-style: normal;
     font-weight: bold;
-    font-size: 21px;
+    font-size: 18px;
     line-height: 34px;
     display: flex;
     align-items: center;
@@ -159,8 +143,8 @@ color: #1B1B1B;
 #data p{
     font-family: Open Sans;
     font-style: normal;
-    font-weight: 600;
-    font-size: 22px;
+    font-weight: 400;
+    font-size: 18px;
     line-height: 160%;
     display: flex;
     align-items: center;
@@ -175,13 +159,16 @@ color: #1B1B1B;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
-   
+   background: #e5e5e5;
     display: flex;
     align-items: center;
-    color: #4F4B4B;
+    
 }
-#data select{
-    color: #8BBD43;
+
+
+/* CAUTION: IE hackery ahead */
+select::-ms-expand { 
+    display: none; /* remove default arrow on ie10 and ie11 */
 }
 #data select option { color: #8BBD43; }
 #data select option:first-child{
@@ -216,35 +203,50 @@ color: #1B1B1B;
     box-sizing: border-box;
     box-shadow: 0px 0px 4px white;
   }
+  input[type="radio"]:checked + label  {
+    
+    color: #8BBD43 !important;
+}
+/*************************************checkbox**************************/
+input[type=checkbox] {
+  display:none;
+}
+
+input[type=checkbox] + label {
+  display:inline-block;
+  padding: 0 0 0 0px;
+  background:url("../seller-img/Group\ 252.png") no-repeat;
+  height: 100px;
+  width: 100px;;
+  background-size: 50%;
+}
+
+input[type=checkbox]:checked + label {
+  background:url("../seller-img/Group\ 251.png") no-repeat;
+  height: 100px;
+  width: 100px;
+  display:inline-block;
+  background-size: 50%;
+}
 #footer .btn{
     background: #8BBD43;
     border-radius: 107px;
     font-family: Merriweather;
     font-style: normal;
     font-weight: bold;
-    font-size: 40px;
+    font-size: 30px;
     line-height: 50px;
     display: flex;
     align-items: center;
     letter-spacing: 0.5px;
     color: #FFFFFF;
-    margin-top: -42px;
+    margin-top: -85px;
+    z-index: 99;
 }
-#footer{
-    background: #000;
+.footer-section{
+  margin-top: -48px;
 }
-#footer h4{
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 27px;
-    line-height: 37px;
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.5px;
-    color: #FFFFFF;
 
-}
 .data-border{
   border-left: 1px solid #7C7C7C;
 }
@@ -267,39 +269,18 @@ color: #1B1B1B;
     font-size: 20px;
     line-height: 40px;
   }
-  #home .home-position-2{
-    top: 27%;
-    left: 8%;
-    width: 349px;
-    
-  }
+  
   #home .form-group label{
     font-size: 12px;
   }
-  #home .form-icons {
-    position: absolute;
-    top: 12%;
-    left: 17%;
-}
-#home .phone {
-  top: 68%;
-}
-#home .email {
-  top: 86%;
-}
-#home .user-1{
-top: 30%;
-}
-#home .user{
-top:49% ;
-}
+  
 #choose-platform h3{
   font-size: 25px;
   line-height: 1;
 }
 .slanted{
-  margin-top: -490px;
-  height: 1141px;
+  margin-top: -507px !important;
+  height: 1483px !important;
 }
 .data-border{
   border: 0px;
@@ -325,7 +306,7 @@ top:49% ;
   }
   
   /* iPads (portrait and landscape) ----------- */
-  @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+  @media only screen and (min-device-width : 768px) and (max-device-width : 1023px) {
     
     #home{
      
@@ -339,39 +320,21 @@ top:49% ;
     #home h4{
       font-size: 25px;
     }
-    #home .home-position-2{
-      top: 27%;
-      left: 12%;
-    }
+    
     #home .form-group label{
       font-size: 16px;
     }
-    #home .form-icons{
-      top: 11%;
-    }
-    #home .phone {
-      top: 68%;
-  }
-    #home .email {
-      top: 86%;
-  }
-  #home .user-1{
-    top: 30%;
-}
-#home .user{
-  top:49% ;
-}
+   
 
-#choose-platform h3{
-  font-size: 30px;
-}
+ 
 .mask-group{
   position: absolute;
 }
 .slanted{
-  margin-top: -325px;
-  height: 957px;
+  margin-top: -396px !important;
+  height: 1164px !important;
 }
+
 .data-border{
   border: 0px;
 }
@@ -384,15 +347,13 @@ top:49% ;
 #footer h4{
   font-size: 22px;
 }
-#home .home-position-2{
-  width: 100%;
 }
-#home .form-icons{
-  left: 11%;
-}
-#home .email{
-  left: 10%;
-}
-  }
+  @media only screen and (min-device-width : 1024px) {
+    
+    .slanted{
+      margin-top: -289px;
+      height: 708px;
+    }
+  } 
   
  
